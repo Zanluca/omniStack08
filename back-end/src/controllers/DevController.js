@@ -16,7 +16,7 @@ module.exports = {
                     _id : {$nin : loggedDev.likes}
                 },
                 {
-                    _id : {$nin : loggedDev.dislike}
+                    _id : {$nin : loggedDev.dislikes}
                 }
             ],
         })
